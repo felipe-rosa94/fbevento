@@ -1,0 +1,126 @@
+#cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-cadastro {
+    width: 100%;
+}
+
+#container-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.div-formulario-cadastro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.div-formulario-cadastro-foto {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#div-formulario-cadastro-funcao {
+    display: flex;
+    flex-direction: row;
+}
+
+#div-formulario-cadastro-rede-social {
+    margin: 10px;
+    display: flex;
+}
+
+.div-funcao {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 10px;
+}
+
+#card-content-formulario {
+    padding: 15px;
+}
+
+#dialog-carregando {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#label-carregando {
+    margin: 4px 8px;
+}
+
+#label-link {
+    color: #0072c9;
+    cursor: pointer;
+}
+
+#div-formulario-cadastro-covid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.div-covid {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.div-covid-1 {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+#div-formulario-cadastro-nome-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    #container-cadastro {
+        margin: 0;
+    }
+
+    #card-content-formulario {
+        padding: 5px;
+    }
+
+    #div-formulario-cadastro-rede-social {
+        flex-wrap: wrap;
+    }
+
+    #webcam {
+        width: 300px;
+        height: 300px;
+        border-radius: 8px;
+    }
+
+    #div-formulario-cadastro-nome-email {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #div-formulario-cadastro-covid {
+        flex-direction: column;
+    }
+
+    .div-covid-1 {
+        justify-content: flex-start;
+    }
+}
